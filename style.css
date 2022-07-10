@@ -1,0 +1,189 @@
+body h1, h2 {
+    margin: 0;
+}
+
+.container {
+    width:70%;
+    margin: 0 auto;
+}
+
+.box-1 {
+    background-color: #555555;
+    padding: 20px 30px;
+    border: 4px solid red;
+    margin-top: 30px;
+    /* padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 30px; */
+}
+
+.clr {
+    clear: both;
+}
+
+.box-1 h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-family: sans-serif;
+}
+
+.box-1 p {
+    color:honeydew;
+}
+
+.box-2 {
+    border: 3px dashed gray;
+    margin-top: 30px;
+    padding: 30px 20px;
+}
+
+.box-2 h1, .box-2 p {
+    color: gray;
+}
+
+.button {
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 18px;
+    border: 3px solid #222;
+    background-color: #222;
+    border-radius: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #111;
+}
+
+.box-3 {
+    border:2px solid #222;
+    margin: 30px 0;
+    padding: 30px; 
+}
+
+.box-3 h1 {
+    text-align: center;
+    color: #565656;
+    font-family: sans-serif;
+}
+
+.categories {
+    padding: 0;
+}
+
+.categories li {
+    list-style-type: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #565656;
+}
+
+.myForm {
+    border: 1px dashed #ee0000;
+    background-color: #666;
+}
+
+.form {
+    padding: 40px;
+}
+
+.myForm label {
+    display: block;
+    font-size: 20px;
+    color: rgb(166, 255, 1);
+}
+
+.myForm input, .myForm textarea {
+    margin: 6px 0;
+    padding: 5px;
+    width: 100%;
+    color: rgb(166, 255, 1);
+}
+
+.bottom {
+    margin-top:200px;
+    text-align: center;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 2px solid #356;
+    padding: 4px;
+    box-sizing:border-box;
+}
+
+.content {
+    float: left;
+    width: 70%;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-color: #323;
+    color: #adff2f;
+}
+
+.relative {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-image: url(Squirtle.png);
+    background-size: cover;
+}
+
+.absolute {
+    position: absolute;
+    right: 30px;
+    top: 15%
+}
+
+.fixed {
+    position: fixed;
+    bottom: 50%;
+    left: 0;
+}
+
+.list-items li {
+    padding: 5px;
+    color: #3d4d1f;
+    list-style-type: none;
+}
+
+.list-items li:first-child {
+    color:greenyellow;
+    background-color: #121212;
+}
+
+.list-items li:nth-child(odd) {
+    color: #adff2f;
+    background-color: #111;
+}
+
+.table1 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table1 th {
+    border: 1px solid green;
+    background-color: #111;
+    color: #adff2f;
+}
+
+.table1 td {
+    text-align: center;
+    border: 1px solid #666;
+}
+
+.table tr:nth-child(even) {
+    background-color: lightskyblue;
+}
+
